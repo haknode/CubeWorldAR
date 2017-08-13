@@ -8,7 +8,7 @@ The game takes place inside a cube sitting on top of an image tracker. The AR li
 
 The player controls the game character by moving it on the horizontal and vertical axis (viewed from above) and letting it jump. The character can only move along one of the axis at a time, and only parallel the axis. The axis the character can move along is also determined by the camera (the mobile device). The character can only move along the axis that is most parallel to the camera view. 
 
-<img src="/img/Screenshot_1.png" width="60%">
+<img src="/img/Screenshot_1.jpg" width="60%">
 
 The image shows the game cube with the first level inside. The light blue cylinder is the character, the light green sphere is the finish and the other objects are obstacles. The camera facing side of the cube is transparent. The character can only move along the axis parallel to the camera (A), and not along the other Axis (B) or diagonal.
 
@@ -19,4 +19,4 @@ The goal of the game is to reach the destination/finish of each level. All objec
 Untiy (https://unity3d.com/) is used as game engine to create the game. Vuforia (https://www.vuforia.com/) is used as tracking library. The library recognizes and tracks a defined image in the real world and uses it to place the coordinate origin of the game world into the real world.
 
 
-<img src="/img/Screenshot_2.png" width="60%">
+<img src="/img/Screenshot_2.jpg" width="60%">
